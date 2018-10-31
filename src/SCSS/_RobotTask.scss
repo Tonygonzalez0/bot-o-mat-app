@@ -1,0 +1,53 @@
+.task--container__style {
+    border-bottom: 4px solid white;
+    border-top: 4px solid white;
+    margin: 10% 0;
+    padding: 2%;
+    text-align: center;
+
+    .task--description__style {
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+        letter-spacing: 3px;
+    }
+
+    .task--eta__style{
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.2rem;
+        margin: 2%;
+    }
+
+    .task--button__style{
+        color: white;
+        font-size: 1.3rem;
+        padding: 10px;
+        background: black;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        width: 300px;
+        margin-top: 5%;
+        letter-spacing: 4px;
+
+        &:hover {
+            background: #b1b0af;
+            cursor: pointer;
+        }
+    }
+
+    .myBar {
+        width: 100%;
+        background-color: #ddd;
+    }
+    
+    .myProgress {
+        width: 0%;
+        height: 30px;
+        background-color: #4CAF50;
+        text-align: center;
+        line-height: 30px;
+        font-family: 'Oswald', sans-serif;
+    }
+}

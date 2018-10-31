@@ -1,0 +1,27 @@
+.robot--card__style {
+    border: 2px solid black;
+    margin: 2%;
+    background: lightslategrey;
+    width: 28%;
+
+    .card--header__style {
+        margin-bottom: 8%;
+
+        h1 {
+            text-align: center;
+            font-size: 5rem;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 300;
+            text-transform: uppercase;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+            letter-spacing: 6px;
+        }
+    
+        p {
+            text-align: center;
+            font-size: 2rem;
+            font-family: 'Oswald', sans-serif;
+        }
+    }
+}
